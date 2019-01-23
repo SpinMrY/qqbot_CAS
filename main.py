@@ -35,7 +35,7 @@ USER_AGENTS = [
 ]
 
 def qbot_send_msg(user_id, message):
-    0print("\n<send_private_msg>")
+    print("\n<send_private_msg>")
     print("posting private message")    
     print(message)
     post = qbot_api_post_url + "send_msg"
